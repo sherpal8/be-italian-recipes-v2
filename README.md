@@ -35,10 +35,10 @@ To achieve this effectively we will need to use a [Junction Table](https://megoc
 
 #### Advanced Queries
 1. Find all the Dishes which use a certain ingredient.
-2. Find all the Dishes which use a certain set of ingredients.
+2. Find all the Dishes which use one or more of a certain set of ingredients.
 3. Find all the Dishes of a certain Course or Dish-type which use a certain set of Ingredients.
-4. Find all the Dishes of a certain Course and Dish-type which use a certain set of Ingredients.
-5. Find all the Dishes of a Dish-Type which use a certain set of Ingredients but which also don't include another Ingredient. You should display all of the Ingredients for the qualifying Dishes. For example, vegetable dishes that include garlic and tomatoes but not mushrooms:
+4. Find all the Dishes of a certain Course **and** Dish-type which use one or more of a certain set of Ingredients.
+5. Find all the Dishes of a Dish-Type which use one or more of a certain set of Ingredients but which also don't include another Ingredient. You should display all of the Ingredients for the qualifying Dishes. For example, vegetable dishes that include garlic or tomatoes but not mushrooms:
 <table>
 <tr>
 <td><b>Dish-type</b></td>
@@ -92,13 +92,13 @@ To achieve this effectively we will need to use a [Junction Table](https://megoc
 
 
 ### Advanced task
-Your final challenge is to create a table for Methods used and integrate this with your existing tables. Bear in mind that ingredients can be cooked using a variety of methods depending on which dish they are being used in, and each method can be used on any number of ingredients. For example 'Poach' could be a Method that applied to fish or eggs; 'Whisk' could apply to eggs _and_ milk in one recipe, but not to fish in another. Unless you are attempting something particularly unusual.
+Your final challenge is to create a table for Methods used and integrate this with your existing tables. Bear in mind that ingredients can be cooked using a variety of methods depending on which dish they are being used in, and each method can be used on any number of ingredients. For example 'Poach' could be a Method that applied to fish or eggs; 'Whisk' could apply to eggs in one recipe, but not to eggs in another.
 
 Once you have created your tables you should try and implement the following queries:
 1. Find all of the Methods used for Dishes of a specific Course.
 2. Find all of the Ingredients that use a specific Method.
-3. Find all of the Ingredients that use more than 2 Method.
+3. Find all of the Ingredients that use more than 2 Methods.
 4. Find all of the Ingredients for a specific Dish and the relevant Methods used for those Ingredients.
 
 **FINAL TASK**
-Write a query challenge for another pair. You can be as difficult as you want
+Write a query challenge for another pair. You can be as awkward as you want
