@@ -25,8 +25,9 @@ As in any recipe book, there will be many possible dishes for each Course and mu
 
 Dishes also have many ingredients. I could think of many Italian recipes within all our courses or types which contain olive oil or tomatoes. This gives us good reason to extract these out into their own ingredients table. Imagine how many times our database would contain 'olive oil' or 'tomato' if we didn't have a separate ingredients table?! Also consider how much more work our SQL server would have to do to 'Find me all recipes which use olive oil, tomato and garlic'.
 
-Now our data set becomes a little more complicated as we now need a [Many to Many Relationship](http://www.tomjewett.com/dbdesign/dbdesign.php?page=manymany.php).
-To achieve this effectively we will need to use a [Junction Table](https://megocode3.wordpress.com/2008/01/04/understanding-a-sql-junction-table/).
+Now our data set becomes a little more complicated as we now need a Many to Many Relationship. To handle many to relationships in our database we will need to use a Junction Table. These links explain a little bit more about Many to Many Relationships and  Junction Tables. 
+- [Many to many relationships & Junction Tables](https://dzone.com/articles/how-to-handle-a-many-to-many-relationship-in-datab).
+- [Another example of Junction Tables](https://megocode3.wordpress.com/2008/01/04/understanding-a-sql-junction-table/).
 
 #### Tasks
 1. Create the schema for ingredients.
