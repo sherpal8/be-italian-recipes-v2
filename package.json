@@ -1,0 +1,21 @@
+{
+  "name": "be-italian-recipes",
+  "version": "1.0.0",
+  "description": "_(For best results view this file in 'Preview' by right-clicking the file in VScode and selecting 'Open preview')_ ### Morning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "psqlOutput": "psql -f data.sql > output.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherpal8/be-italian-recipes-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherpal8/be-italian-recipes-v2/issues"
+  },
+  "homepage": "https://github.com/sherpal8/be-italian-recipes-v2#readme"
+}
